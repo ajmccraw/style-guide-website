@@ -24,6 +24,12 @@ p {
     font-size: 18px;
 }
 
+.container {
+    border: 2px solid #14213d;
+    padding: 15px;
+    margin: 20px auto;
+}
+
 .color-panel {
     display: inline-block;
     width: 32%;
@@ -45,4 +51,19 @@ p {
 .orange-web {
     background-color: #fca311;
     color: #14213d;
+}
+
+.encode-sans-semi-expanded {
+    font-family: 'Encode Sans Semi Expanded', 'Courier New', Courier, monospace;
+    color: #14213d;
+}
+
+.fira-code {
+    font-family: 'Fira Code', sans-serif;
+    color: #14213d;
+}
+
+.font-label {
+    font-size: 22px;
+    text-decoration: underline;
 }
